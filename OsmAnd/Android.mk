@@ -8,7 +8,7 @@ LOCAL_PACKAGE_NAME := OsmAnd
 
 root  := $(LOCAL_PATH)
 out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := net.osmand.plus_235.apk
+apk   := net.osmand.plus_238.apk
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(apk)

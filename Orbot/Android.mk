@@ -8,7 +8,7 @@ LOCAL_PACKAGE_NAME := Orbot
 
 root  := $(LOCAL_PATH)
 out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := org.torproject.android.apk
+apk   := Orbot-v15.1.2.apk
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(apk)

@@ -2,13 +2,13 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := SMSSecure
+LOCAL_MODULE := Silence
 LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := SMSSecure
+LOCAL_PACKAGE_NAME := Silence
 
 root  := $(LOCAL_PATH)
 out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := org.smssecure.smssecure_119.apk
+apk   := org.smssecure.smssecure_123.apk
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(apk)

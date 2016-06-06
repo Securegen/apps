@@ -8,7 +8,7 @@ LOCAL_PACKAGE_NAME := OpenKeychain
 
 root  := $(LOCAL_PATH)
 out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := org.sufficientlysecure.keychain_39400.apk
+apk   := org.sufficientlysecure.keychain_40100.apk
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(apk)

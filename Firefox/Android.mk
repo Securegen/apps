@@ -8,7 +8,7 @@ LOCAL_PACKAGE_NAME := Firefox
 
 root  := $(LOCAL_PATH)
 out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := fennec-45.0.2.multi.android-arm.apk
+apk   := fennec-46.0.multi.android-arm.apk
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(apk)
