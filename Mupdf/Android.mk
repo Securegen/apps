@@ -8,7 +8,7 @@ LOCAL_PACKAGE_NAME := Mupdf
 
 root  := $(LOCAL_PATH)
 out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := com.artifex.mupdfdemo.apk
+apk   := com.artifex.mupdfdemo_93.apk
 
 LOCAL_CERTIFICATE := platform
 LOCAL_SRC_FILES := $(apk)
