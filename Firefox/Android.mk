@@ -1,17 +1,9 @@
 LOCAL_PATH := $(call my-dir)
-
 include $(CLEAR_VARS)
 
-LOCAL_MODULE := Firefox
-LOCAL_MODULE_TAGS := optional
-LOCAL_PACKAGE_NAME := Firefox
-
-root  := $(LOCAL_PATH)
-out   := $(OUT_DIR)/target/common/obj/APPS/$(LOCAL_MODULE)_intermediates
-apk   := fennec-46.0.multi.android-arm.apk
-
-LOCAL_CERTIFICATE := platform
-LOCAL_SRC_FILES := $(apk)
+LOCAL_MODULE := Firefox	
+LOCAL_SRC_FILES := fennec-46.0.multi.android-arm.apk
+LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 
