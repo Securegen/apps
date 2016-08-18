@@ -1,18 +1,16 @@
 #!/bin/bash
 
-if [ -z ${CM_HOME+x} ]; then read -p "Enter the path to the build dir: " -e CM_HOME; fi
+if [ -z ${cmHome+x} ]; then read -p "Enter the path to the build dir: " -e cmHome; fi
 
-CM_PACKAGES=$CM_HOME/packages/apps
-CM_COMMON_FULL=$CM_HOME/vendor/cm/config/common_full.mk
+cmPackages=$cmHome/packages/apps
+cmCommonFull=$cmHome/vendor/cm/config/common_full.mk
 
-cp -R */ $CM_PACKAGES
+cp -R */ $cmPackages
 
-if grep -Fxq "#Packages included by Securegen" $CM_COMMON_FULL
+if grep -Fxq "#Packages included by Securegen" $cmCommonFull
 then
     echo "Packs already added."
 else
-    cat secGenPacks.txt >> $CM_COMMON_FULL
+    cat secGenPacks.txt >> $cmCommonFull
 fi
-
-
 
