@@ -20,4 +20,5 @@ OsmAnd \
 Silence \
 Telegram \
 Tomdroid \
-VLC
+VLC \
+LibreSignal
