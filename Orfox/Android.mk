@@ -2,7 +2,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 
 LOCAL_MODULE := Orfox
-LOCAL_SRC_FILES := info.guardianproject.orfox.apk
+LOCAL_SRC_FILES := Orfox-1.2-TorBrowser-6.5-Fennec45.4.0.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
