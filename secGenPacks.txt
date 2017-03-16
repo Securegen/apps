@@ -15,5 +15,4 @@ Orfox \
 OsmAnd \
 Silence \
 Tomdroid \
-VLC \
-LibreSignal
+Signal
