@@ -6,7 +6,7 @@ Bitmask \
 ChatSecure \
 F-Droid \
 Firefox \
-HackersKeyboard \
+AnySoftKeyboard \
 K-9 \
 Mupdf \
 OpenKeychain \
