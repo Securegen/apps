@@ -5,6 +5,7 @@ BarcodeScanner \
 Bitmask \
 ChatSecure \
 F-Droid \
+FDroidPrivilegedExtension \
 Firefox \
 AnySoftKeyboard \
 K-9 \
