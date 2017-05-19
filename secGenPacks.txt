@@ -8,11 +8,8 @@ F-Droid \
 Firefox \
 AnySoftKeyboard \
 K-9 \
-Mupdf \
 OpenKeychain \
 Orbot \
 Orfox \
-OsmAnd \
 Silence \
-Tomdroid \
 Signal
