@@ -9,3 +9,6 @@ To add all apps on this repo to the build, just run addPacks.sh.
 If you don't want one of the apps, remove its name from secGenPacks.txt.
 
 If you want to add an app, download its apk, create a .mk file like the ones on this repo and add its name to secGenPacks.txt.
+
+
+##TEST SIGNING ##
